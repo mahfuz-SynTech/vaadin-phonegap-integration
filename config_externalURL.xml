@@ -13,6 +13,6 @@
 	</description>
     <icon src="icon.png" gap:role="default" />
     
-    <content src="http://192.168.43.180/wordpress_Ecommerce" />
+    <content src="http://jarno.app.fi/Example/www/index.html" /> 
 	<access origin="*" />
 </widget>
