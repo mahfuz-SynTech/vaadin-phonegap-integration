@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <widget xmlns		= "http://www.w3.org/ns/widgets"
 	xmlns:gap	= "http://phonegap.com/ns/1.0"
-	id		= "com.192.168.43.180/wordpress_Ecommerce.app" 
+	id		= "com.example.vaadinwrapped"
 	version 	= "0.0.1">
 
 	<name>Vaadin PhoneGap integration</name>
@@ -12,7 +12,7 @@
 		Wrapping Vaadin applications inside PhoneGap
 	</description>
     <icon src="icon.png" gap:role="default" />
-    <content src="http://192.168.43.180/wordpress_Ecommerce" />
+    
 	<access origin="*" />
     <gap:plugin name="org.apache.cordova.network-information" version="0.2.7" />
     <gap:plugin name="org.apache.cordova.splashscreen" version="0.2.7" />
