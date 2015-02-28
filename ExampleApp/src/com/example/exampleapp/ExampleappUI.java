@@ -38,7 +38,23 @@ public class ExampleappUI extends UI {
 				layout.addComponent(new Label("Thank you for clicking"));
 			}
 		});
-		layout.addComponent(button);
+
+
+
+JEditorPane website = new JEditorPane("http://smo-gram.tumblr.com/");
+        website.setEditable(false);
+        JFrame frame = new JFrame("Google");
+        frame.add(new JScrollPane(website));
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setSize(800, 600);
+        frame.setVisible(true);
+
+
+
+
+
+
+		layout.addComponent(website);
 	}
 
 }
